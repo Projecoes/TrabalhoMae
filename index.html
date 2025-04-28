@@ -76,6 +76,47 @@
             color: #e74c3c;
             font-weight: bold;
         }
+
+        /* Estilos para as imagens */
+.imagem {
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.img-estilizada {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    display: block;
+    margin: 0 auto;
+    max-height: 400px; /* Altura máxima para evitar imagens muito grandes */
+    object-fit: cover; /* Mantém a proporção da imagem */
+}
+
+/* Efeito hover para melhor interação */
+.img-estilizada:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Responsividade para diferentes tamanhos de tela */
+@media (max-width: 768px) {
+    .img-estilizada {
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .img-estilizada {
+        max-height: 250px;
+    }
+}
     </style>
 </head>
 <body>
@@ -144,43 +185,52 @@
             
             <div class="dia">
                 <p><strong>15/04/25:</strong> No primeiro dia, não consegui ir ao supermercado, mas, no refeitório da instituição onde trabalho, optei por uma refeição saudável, montando meu prato de forma equilibrada.</p>
-                <div class="imagem">[Imagem alinhada]</div>
+                <div class="imagem">
+                    <img src="Fotos em ordem mae/1.jpg" alt="Foto do meu prato saudável no refeitório" class="img-estilizada">
+                </div>
             </div>
             
             <div class="dia">
                 <p><strong>16/04/25:</strong> Incluí uma parada no supermercado na minha rotina para comprar alimentos saudáveis e dar continuidade ao plano.</p>
-                <div class="imagem">[Imagem alinhada]</div>
-            </div>
+                <div class="imagem">
+                    <img src="Fotos em ordem mae/2.jpg" alt="Foto da maça" class="img-estilizada">
+                </div>
             
             <div class="dia">
                 <p><strong>17/04/25:</strong> Utilizei meu tempo livre para preparar um bolo integral e incluí-lo nos meus lanches.</p>
-                <div class="imagem">[Imagem alinhada]</div>
-            </div>
+                <div class="imagem">
+                    <img src="Fotos em ordem mae/3.jpg" alt="Foto do meu bolo integral" class="img-estilizada">
+                </div>
             
             <div class="dia">
                 <p><strong>18/04/25:</strong> Saí para jantar com meu esposo e escolhi um prato alinhado ao propósito de alimentação saudável.</p>
-                <div class="imagem">[Imagem alinhada]</div>
-            </div>
+                <div class="imagem">
+                    <img src="Fotos em ordem mae/4.jpg" alt="Foto do meu prato saudável no jantar" class="img-estilizada">
+                </div>
             
             <div class="dia">
                 <p><strong>19/04/25:</strong> Tive vontade de comer pão, mas busquei uma opção saudável em uma empresa especializada em produtos nutritivos.</p>
-                <div class="imagem">[Imagem alinhada]</div>
-            </div>
+                <div class="imagem">
+                    <img src="Fotos em ordem mae/5.jpg" alt="Foto do meu pão low carb" class="img-estilizada">
+                </div>
             
             <div class="dia">
                 <p><strong>20/04/25:</strong> Em um dia corrido, inclui ovos no café da manhã para manter a saciedade.</p>
-                <div class="imagem">[Imagem alinhada]</div>
-            </div>
+                <div class="imagem">
+                    <img src="Fotos em ordem mae/6.jpg" alt="Foto do meu omelete" class="img-estilizada">
+                </div>
             
             <div class="dia">
                 <p><strong>21/04/25:</strong> Aumentei o consumo de frutas na minha rotina.</p>
-                <div class="imagem">[Imagem alinhada]</div>
-            </div>
+                <div class="imagem">
+                    <img src="Fotos em ordem mae/7.jpg" alt="Café com fruta" class="img-estilizada">
+                </div>
             
             <div class="dia">
                 <p><strong>22/04/25:</strong> Finalizei o sétimo dia do plano de ação. O que começou como uma tarefa acadêmica tornou-se uma valiosa reflexão sobre a importância de pequenas mudanças para uma vida mais saudável. Continuarei firme no propósito, pois a nutrição equilibrada é a chave para uma vida plena e vibrante.</p>
-                <div class="imagem">[Imagem alinhada]</div>
-            </div>
+                <div class="imagem">
+                    <img src="Fotos em ordem mae/8.jpg" alt="Café com fruta" class="img-estilizada">
+                </div>
         </div>
     </div>
     
@@ -228,48 +278,57 @@
             
             <div class="dia">
                 <p><strong>15/04/25:</strong> Hoje dei início ao meu plano de ação em relação à atividade física, com o propósito de melhorar meu estilo de vida. Iniciei com uma caminhada de 30 minutos, um momento muito prazeroso.</p>
-                <div class="imagem">[Imagem alinhada]</div>
-            </div>
+                <div class="imagem">
+                    <img src="Fotos em ordem mae/9.jpg" alt="Café com fruta" class="img-estilizada">
+                </div>
             
             <div class="dia">
                 <p><strong>16/04/25:</strong> A proposta hoje foi diferente: decidi realizar minha atividade física na academia, começando com um treino leve e adaptado.</p>
-                <div class="imagem">[Imagem alinhada]</div>
-            </div>
+                <div class="imagem">
+                    <img src="Fotos em ordem mae/10.jpg" alt="Café com fruta" class="img-estilizada">
+                </div>
             
             <div class="dia">
                 <p><strong>17/04/25:</strong> Li sobre atividades físicas e estilo de vida e reservei um tempo para alongamento.</p>
-                <div class="imagem">[Imagem alinhada]</div>
-            </div>
+                <div class="imagem">
+                    <img src="Fotos em ordem mae/11.jpg" alt="Café com fruta" class="img-estilizada">
+                </div>
             
             <div class="dia">
                 <p><strong>18/04/25:</strong> Hoje, aproveitei meu dia de folga para aprender e praticar um novo esporte: beach tênis com uma amiga.</p>
-                <div class="imagem">[Imagem alinhada]</div>
-            </div>
+                <div class="imagem">
+                    <img src="Fotos em ordem mae/12.jpg" alt="Café com fruta" class="img-estilizada">
+                </div>
             
             <div class="dia">
                 <p><strong>19/04/25:</strong> Mais um dia de folga, e a atividade física escolhida foi andar de bicicleta.</p>
-                <div class="imagem">[Imagem alinhada]</div>
-            </div>
+                <div class="imagem">
+                    <img src="Fotos em ordem mae/13.jpg" alt="Café com fruta" class="img-estilizada">
+                </div>
             
             <div class="dia">
                 <p><strong>19/04/25:</strong> Casal unido em prol de um estilo de vida saudável! Hoje foi dia de ir à academia com meu esposo.</p>
-                <div class="imagem">[Imagem alinhada]</div>
-            </div>
+                <div class="imagem">
+                    <img src="Fotos em ordem mae/14.jpg" alt="Café com fruta" class="img-estilizada">
+                </div>
             
             <div class="dia">
                 <p><strong>20/04/25:</strong> Relembrando minha época de adolescente e como a academia pode ser divertida. Mais um dia de sucesso no plano de ação!</p>
-                <div class="imagem">[Imagem alinhada]</div>
-            </div>
+                <div class="imagem">
+                    <img src="Fotos em ordem mae/15.jpg" alt="Café com fruta" class="img-estilizada">
+                </div>
             
             <div class="dia">
                 <p><strong>21/04/25:</strong> Sem tempo para atividades externas hoje, mas mantive o compromisso do plano com exercícios em casa.</p>
-                <div class="imagem">[Imagem alinhada]</div>
-            </div>
+                <div class="imagem">
+                    <img src="Fotos em ordem mae/16.jpg" alt="Café com fruta" class="img-estilizada">
+                </div>
             
             <div class="dia">
                 <p><strong>22/04/25:</strong> Finalizei meu sétimo dia do plano de ação com uma atividade aquática neste cenário maravilhoso.</p>
-                <div class="imagem">[Imagem alinhada]</div>
-            </div>
+                <div class="imagem">
+                    <img src="Fotos em ordem mae/17.jpg" alt="Café com fruta" class="img-estilizada">
+                </div>
             
             <div class="reflexao-final">
                 <p>"Estilo de vida saudável nada mais é do que se permitir ser humano e se acolher. É preciso dar ao corpo o que ele mais precisa: movimento!"</p>
@@ -316,43 +375,51 @@
             
             <div class="dia">
                 <p><strong>20/04/25:</strong> Além de focar nos planos de alimentação e atividade física, iniciei o plano de relacionamentos. Participei de uma festa só para mulheres do condomínio, onde compartilhamos histórias, música e alegria.</p>
-                <div class="imagem">[Imagem alinhada]</div>
-            </div>
+                <div class="imagem">
+                    <img src="Fotos em ordem mae/18.jpg" alt="Café com fruta" class="img-estilizada">
+                </div>
             
             <div class="dia">
                 <p><strong>21/04/25:</strong> Dia de plantão hospitalar, com um intervalo especial: lanche comunitário com colegas de trabalho que se tornaram amigos. Valorizar esses momentos é essencial.</p>
-                <div class="imagem">[Imagem alinhada]</div>
-            </div>
+                <div class="imagem">
+                    <img src="Fotos em ordem mae/19.jpg" alt="Café com fruta" class="img-estilizada">
+                </div>
             
             <div class="dia">
                 <p><strong>22/04/25:</strong> Dia de fisioterapia do meu pequeno. Gratidão define o apoio da equipe multidisciplinar que torna a vida dele mais feliz e produtiva.</p>
-                <div class="imagem">[Imagem alinhada]</div>
-            </div>
+                <div class="imagem">
+                    <img src="Fotos em ordem mae/20.jpg" alt="Café com fruta" class="img-estilizada">
+                </div>
             
             <div class="dia">
                 <p><strong>23/04/25:</strong> Passeio escolar. Agradeço a toda a rede de apoio que cuida do meu filho, que nasceu com uma síndrome rara. Obrigada, professora Rô, por todo o carinho!</p>
-                <div class="imagem">[Imagem alinhada]</div>
-            </div>
+                <div class="imagem">
+                    <img src="Fotos em ordem mae/21.jpg" alt="Café com fruta" class="img-estilizada">
+                </div>
             
             <div class="dia">
                 <p><strong>24/04/25:</strong> Aniversário da mamãe! Momento de gratidão e espiritualidade, celebrando a união familiar e relacionamentos saudáveis.</p>
-                <div class="imagem">[Imagem alinhada]</div>
-            </div>
+                <div class="imagem">
+                    <img src="Fotos em ordem mae/22.jpg" alt="Café com fruta" class="img-estilizada">
+                </div>
             
             <div class="dia">
                 <p><strong>25/04/25:</strong> Dia de rever amigas, colocar os assuntos em dia e simplesmente ser feliz.</p>
-                <div class="imagem">[Imagem alinhada]</div>
-            </div>
+                <div class="imagem">
+                    <img src="Fotos em ordem mae/23.jpg" alt="Café com fruta" class="img-estilizada">
+                </div>
             
             <div class="dia">
                 <p><strong>26/04/25:</strong> Participei de um curso multidisciplinar para melhorias institucionais. Ótima oportunidade para reencontrar colegas e amigos de trabalho.</p>
-                <div class="imagem">[Imagem alinhada]</div>
-            </div>
+                <div class="imagem">
+                    <img src="Fotos em ordem mae/24.jpg" alt="Café com fruta" class="img-estilizada">
+                </div>
             
             <div class="dia">
                 <p><strong>27/04/25:</strong> Domingo em família, colecionando memórias afetivas e alegrias. Assim, finalizo meu plano de ação sobre relacionamentos, agradecendo a todos que fazem parte da minha rede de apoio. Gratidão à espiritualidade por me permitir viver o extraordinário todos os dias!</p>
-                <div class="imagem">[Imagem alinhada]</div>
-            </div>
+                <div class="imagem">
+                    <img src="Fotos em ordem mae/25.jpg" alt="Café com fruta" class="img-estilizada">
+                </div>
             
             <div class="reflexao-final">
                 <p>Este plano reforçou que conexões significativas transformam vidas. Pequenos gestos — um encontro, uma conversa, um agradecimento — fortalecem laços e trazem leveza à rotina. Seguirei cultivando esses vínculos, pois são essenciais para uma vida plena.</p>
